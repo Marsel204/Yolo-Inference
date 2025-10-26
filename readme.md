@@ -1,10 +1,10 @@
-# Youth IoT — Object Detection Module
+# YOLO_OpenCV — Object Detection Module
 
 A simple object detection module using Ultralytics YOLO and OpenCV.
 
 ## Files
 - `ObjectDetectionModule.py` — detection class and camera demo.
-- `best.pt` — default model weights (expected in repo root).
+- `best.pt` — default model weights (expected in repo root)/ You can also Use your own models.
 - `Requirements.txt` — Python dependencies.
 
 ## Setup (Windows)
