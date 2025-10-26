@@ -11,7 +11,7 @@ A simple object detection module using Ultralytics YOLO and OpenCV.
 
 1. Clone the repository:
 ```powershell
-git clone https://github.com/Marsel204/YOLO-Inference.git
+git clone https://github.com/Marsel204/Yolo-Inference.git
 cd YOLO_OpenCV
 ```
 2. Create and activate a virtual environment:
