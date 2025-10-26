@@ -8,12 +8,18 @@ A simple object detection module using Ultralytics YOLO and OpenCV.
 - `Requirements.txt` — Python dependencies.
 
 ## Setup (Windows)
-1. Create and activate a virtual environment:
+
+1. Clone the repository:
+```powershell
+git clone https://github.com/yourusername/YOLO_OpenCV.git
+cd YOLO_OpenCV
+```
+2. Create and activate a virtual environment:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate
 ```
-2. Install dependencies:
+3. Install dependencies:
 ```powershell
 pip install -r requirements.txt
 ```
