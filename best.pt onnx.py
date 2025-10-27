@@ -1,0 +1,6 @@
+# Onnix from pt Converter 
+
+from ultralytics import YOLO
+
+model = YOLO("best.pt")
+model.export(format="onnx")  # hasilnya: best.onnx
