@@ -59,5 +59,5 @@ class ObjectDetectionModule:
         cv2.destroyAllWindows()
         
 if __name__ == "__main__":
-    odm = ObjectDetectionModule(model_path='best.pt', conf_threshold=0.25)
+    odm = ObjectDetectionModule(model_path='best.onnx', conf_threshold=0.25)
     odm.camera_stream_detection(camera_index=0)
