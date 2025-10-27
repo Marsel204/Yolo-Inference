@@ -1,0 +1,8 @@
+# Core dependencies
+ultralytics>=8.0.0
+torch>=2.0.0
+numpy>=1.23.0
+opencv-python>=4.7.0
+
+# If running headless (no display), replace opencv-python with:
+# opencv-python-headless>=4.7.0
