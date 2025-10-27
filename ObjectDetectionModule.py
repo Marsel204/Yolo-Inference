@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-class ObjectDetectionModule:
+class ObjectDetection:
     def __init__(self, model_path='yolov8n.pt', conf_threshold=0.25):
         self.model = YOLO(model_path)
         self.conf_threshold = conf_threshold
@@ -59,5 +59,5 @@ class ObjectDetectionModule:
         cv2.destroyAllWindows()
         
 if __name__ == "__main__":
-    odm = ObjectDetectionModule(model_path='best.onnx', conf_threshold=0.25)
+    odm = ObjectDetection(model_path='best.onnx', conf_threshold=0.25)
     odm.camera_stream_detection(camera_index=0)
